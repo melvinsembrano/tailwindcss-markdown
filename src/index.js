@@ -30,7 +30,7 @@ module.exports = ({ addComponents }) => {
         '@apply font-semibold text-gray-800': {},
       },
       '> p code, > ul li *:not(pre) code, > ul li > code, > ol li *:not(pre) code, > ol li > code, p& code&': {
-        '@apply inline-block bg-gray-100 rounded-sm text-sm px-1 leading-none whitespace-no-wrap text-purple-600 font-mono align-baseline font-normal': {},
+        '@apply inline-block bg-gray-100 rounded-sm text-sm px-1 leading-none whitespace-nowrap text-purple-600 font-mono align-baseline font-normal': {},
       },
       '> p strong code, > ul li strong code, > ol li strong code': {
         '@apply font-normal': {},
@@ -72,7 +72,7 @@ module.exports = ({ addComponents }) => {
         '@apply text-base mt-6': {},
       },
       '> ul:not(.list-none)': {
-        '@apply pl-0 list-none': {},
+        '@apply pl-0': {},
         li: {
           '@apply relative pl-5': {},
           '&::before': {
